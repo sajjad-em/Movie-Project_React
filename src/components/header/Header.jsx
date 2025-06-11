@@ -14,7 +14,6 @@ export default function Header() {
                     <h2 className="logo">مای مووی</h2>
                     <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
                 </div>
-
                 <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
                     <li>فیلم خارجی</li>
                     <li>فیلم ایرانی</li>
@@ -25,9 +24,6 @@ export default function Header() {
                     <li>ارتباط با ما</li>
                 </ul>
                 <Search />
-            </div>
-            <div className="slider" style={{maxWidth:'100%'}}>
-                <Slider/>
             </div>
         </>
     )

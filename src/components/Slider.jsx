@@ -1,58 +1,87 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import '../style/style.css'
 
 export default function Slider() {
     return (
-        <div className="slider w-full">
+        <div style={{ marginTop: '10px' }} className="slider w-full relative">
             <Swiper
-                modules={[Autoplay]}
+                modules={[Autoplay, Navigation]}
                 spaceBetween={20}
                 loop={true}
+                navigation={true}
                 autoplay={{
                     delay: 2000,
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
-                    320: { slidesPerView: 1 },     // موبایل
-                    640: { slidesPerView: 2 },     // تبلت کوچک
-                    1024: { slidesPerView: 3 },    // لپ‌تاپ و بالاتر
+                    320: { slidesPerView: 1 },
+                    640: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
                 }}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>
-                    <img style={{width:'100%' , height:'400px'}}
-                        src="/Images/sinners.jpg"
-                        alt="sinners"
-                        className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
-                    />
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/sinners.jpg"
+                            alt="sinners"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img style={{width:'100%' , height:'400px'}}
-                        src="/Images/ballerina-movie.jpg"
-                        alt="ballerina"
-                        className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
-                    />
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/ballerina-movie.jpg"
+                            alt="ballerina"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img style={{width:'100%' , height:'400px'}}
-                        src="/Images/final-destination.jpg"
-                        alt="final destination"
-                        className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
-                    />
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/final-destination.jpg"
+                            alt="final destination"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <img style={{width:'100%' , height:'400px'}}
-                        src="/Images/mission-impossible-7.jpg"
-                        alt="mission impossible"
-                        className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg"
-                    />
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/mission-impossible-7.jpg"
+                            alt="mission impossible"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/fountain-of-youth.jpg"
+                            alt="fountain-of-youth"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className="image-3d-wrapper">
+                        <img style={{width:'100%' , height:'400px'}}
+                            src="/Images/warfare.jpg"
+                            alt="warfare"
+                            className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
+                        />
+                    </div>
                 </SwiperSlide>
             </Swiper>
         </div>
-    );
+    )
 }
