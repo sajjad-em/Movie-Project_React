@@ -1,4 +1,5 @@
 import "../../style/style.css"
+import Slider from "../Slider"
 import Search from "./Search"
 import { useState } from "react"
 import { FaBars } from "react-icons/fa"
@@ -7,22 +8,27 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(true)
 
     return (
-        <div className="container">
-            <div className="header-top">
-                <h2 className="logo">مای مووی</h2>
-                <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
-            </div>
+        <>
+            <div className="container">
+                <div className="header-top">
+                    <h2 className="logo">مای مووی</h2>
+                    <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
+                </div>
 
-            <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
-                <li>فیلم خارجی</li>
-                <li>فیلم ایرانی</li>
-                <li>سریال</li>
-                <li>انیمیشن</li>
-                <li>دوبله فارسی</li>
-                <li>سایر</li>
-                <li>ارتباط با ما</li>
-            </ul>
-            <Search />
-        </div>
+                <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
+                    <li>فیلم خارجی</li>
+                    <li>فیلم ایرانی</li>
+                    <li>سریال</li>
+                    <li>انیمیشن</li>
+                    <li>دوبله فارسی</li>
+                    <li>سایر</li>
+                    <li>ارتباط با ما</li>
+                </ul>
+                <Search />
+            </div>
+            <div className="slider" style={{maxWidth:'100%'}}>
+                <Slider/>
+            </div>
+        </>
     )
 }
