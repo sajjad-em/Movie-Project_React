@@ -90,7 +90,7 @@ body {
 }
 
 .image-3d-wrapper {
-    perspective: 1000px;
+    perspective: 1000px; 
 }
 
 .image-3d {

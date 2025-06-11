@@ -1,5 +1,6 @@
 import Header from "../header/Header";
-import Slider from "../Slider";
+import Slider from "../slider/Slider";
+
 
 export default function FirstPage() {
     return <>

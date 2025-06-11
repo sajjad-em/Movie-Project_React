@@ -1,5 +1,4 @@
 import "../../style/style.css"
-import Slider from "../Slider"
 import Search from "./Search"
 import { useState } from "react"
 import { FaBars } from "react-icons/fa"
