@@ -1,0 +1,34 @@
+{
+    "list": [
+        {
+            "name": "The Walking Dead : Dead City",
+            "IMDB": 8.4,
+            "image": "/Images/Main/DeadCity.jpg"
+        },
+        {
+            "name": "Vikings",
+            "IMDB": 8.5,
+            "image": "/Images/Main/Vikings.jpg"
+        },
+        {
+            "name": "The Last Of US",
+            "IMDB": 8.7,
+            "image": "/Images/Main/TLOU.jpg"
+        },
+        {
+            "name": "Breaking Bad",
+            "IMDB": 9.5,
+            "image": "/Images/Main/BB.jpg"
+        },
+        {
+            "name": "MobLand",
+            "IMDB": 8.3,
+            "image": "/Images/Main/mobLand.jpg"
+        },
+        {
+            "name": "Cage",
+            "IMDB": 6.4,
+            "image": "/Images/Main/Cage.jpg"
+        }
+    ]
+}
