@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 100%;
-    background-color: red;
+    background-color: indigo;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -130,6 +130,23 @@ body {
 
 .swiper-button-next {
     right: 10px;
+}
+
+.ListContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.ListImg {
+    padding-top: 0px;
+    border: unset;
+}
+
+.ListImg:hover {
+    box-shadow: 0 0 8px #fff;
 }
 
 @media (max-width: 768px) {

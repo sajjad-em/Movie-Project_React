@@ -1,7 +1,7 @@
 {
-    "list": [
+    "series": [
         {
-            "name": "The Walking Dead : Dead City",
+            "name": "Dead City",
             "IMDB": 8.4,
             "image": "/Images/Main/DeadCity.jpg"
         },
@@ -31,4 +31,5 @@
             "image": "/Images/Main/Cage.jpg"
         }
     ]
+    
 }

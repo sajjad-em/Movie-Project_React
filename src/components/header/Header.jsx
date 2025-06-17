@@ -14,13 +14,13 @@ export default function Header() {
                     <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
                 </div>
                 <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
+                    <li>ارتباط با ما</li>
+                    <li>سایر</li>
                     <li>فیلم خارجی</li>
                     <li>فیلم ایرانی</li>
                     <li>سریال</li>
                     <li>انیمیشن</li>
                     <li>دوبله فارسی</li>
-                    <li>سایر</li>
-                    <li>ارتباط با ما</li>
                 </ul>
                 <Search />
             </div>

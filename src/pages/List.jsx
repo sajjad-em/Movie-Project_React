@@ -8,7 +8,7 @@ export default function List() {
     });
     async function getData() {
         try {
-            await axios.get("http://localhost:3001/list").then((res) => {
+            await axios.get("http://localhost:3001/series").then((res) => {
                 setShow(res.data);
             }).catch((err) => {
                 console.log(err);
@@ -18,21 +18,18 @@ export default function List() {
         }
     }
 
-
-
-    return <>
-        <div style={{display:'flex' , justifyContent:'space-between', padding:'20px 20px'}} className="row">
+    return (
+        <div className="ListContainer">
             {
-                show.map((show) => {
-                    return (
-                        <div className="col-3">
-                                <h2>{show.name}</h2>
-                                <img src={show.image} className="ListImg" alt="..." />
-                                <h3>{show.IMDB}</h3>
-                        </div>
-                    )
-                })
+                show.map((show) => (
+                    <div >
+                        <h2 style={{ textAlign: 'left' }}>{show.name}</h2>
+                        <img src={show.image} className="ListImg" alt="..." />
+                        <h3 className="textShow">{show.IMDB}</h3>
+                    </div>
+                ))
             }
         </div>
-    </>
+    );
+
 }
