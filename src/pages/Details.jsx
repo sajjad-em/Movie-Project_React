@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
+import Header from "../components/header/Header";
 export default function Details() {
     const { id } = useParams();
     const [selectedShow, setSelectedShow] = useState(null);
@@ -24,21 +24,25 @@ export default function Details() {
     if (!selectedShow) return <p>Loading...</p>;
 
     return (
-        <div className="DetailsContainer">
-            <img src={selectedShow.poster} alt={selectedShow.name} className="DetailsImg" />
-            <div className="detailed-contant">
-                <h1 className="detailsName">{selectedShow.name}</h1>
-                <div className="detailRow">
-                    <h3 className="grade">{selectedShow.IMDB} : IMDB</h3>
-                    <h3>سال تولید : {selectedShow.year}</h3>
-                    <p className="genre">ژانر : {selectedShow.genre}</p>
-                    <h3>{selectedShow.actor} : بازیگران  </h3>
-                    <br />
-                    <hr />
-                    <br />
-                    <p className="description">{selectedShow.description}</p>
+        <>
+            <Header />
+            
+            <div className="DetailsContainer">
+                <img src={selectedShow.poster} alt={selectedShow.name} className="DetailsImg" />
+                <div className="detailed-contant">
+                    <h1 className="detailsName">{selectedShow.name}</h1>
+                    <div className="detailRow">
+                        <h3 className="grade">{selectedShow.IMDB} : IMDB</h3>
+                        <h3>سال تولید : {selectedShow.year}</h3>
+                        <p className="genre">ژانر : {selectedShow.genre}</p>
+                        <h3>{selectedShow.actor} : بازیگران  </h3>
+                        <br />
+                        <hr />
+                        <br />
+                        <p className="description">{selectedShow.description}</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
