@@ -35,7 +35,6 @@ body {
     color: yellowgreen;
     cursor: pointer;
     display: none;
-    /* Hidden on desktop */
 }
 
 .nav-list {
@@ -45,7 +44,6 @@ body {
     list-style: none;
     justify-content: right;
     padding: 1rem 0;
-    /* margin-top: -35px; */
     transition: max-height 0.3s ease-in-out;
 }
 
@@ -143,10 +141,54 @@ body {
 .ListImg {
     padding-top: 0px;
     border: unset;
+    cursor: pointer;
 }
 
 .ListImg:hover {
     box-shadow: 0 0 8px #fff;
+}
+
+.DetailsImg {
+    position: fixed;
+    top: 64px;
+    right: 0;
+    width: 60%;
+    height: 700px;
+    float: right;
+}
+
+.genre {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.detailed-contant {
+    margin-left: 10px;
+}
+
+.detailsName {
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+}
+
+.detailRow {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.grade {
+    color: gold;
+}
+
+.description {
+    /* position: fixed;
+    bottom: 50px;
+    right: 5px; */
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 10px;
+    
 }
 
 @media (max-width: 768px) {

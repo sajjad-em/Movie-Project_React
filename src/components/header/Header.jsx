@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
                 <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
                     <li>ارتباط با ما</li>
-                    <li>سایر</li>
+                    <li>لیست پخش</li>
                     <li>فیلم خارجی</li>
                     <li>فیلم ایرانی</li>
                     <li>سریال</li>

@@ -1,35 +1,36 @@
 import axios from "axios";
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function List() {
-    const [show, setShow] = useState([]);
+    const [shows, setShows] = useState([]);
+
     useEffect(() => {
         getData();
-    });
+    }, []);
+
+
     async function getData() {
         try {
-            await axios.get("http://localhost:3001/series").then((res) => {
-                setShow(res.data);
-            }).catch((err) => {
-                console.log(err);
-            })
+            const res = await axios.get("http://localhost:3001/series");
+            setShows(res.data);
         } catch (error) {
-            alert("There is something wrong")
+            alert("مشکلی پیش آمده است . لطفا مجددا تلاش کنید.");
+            console.log(error);
         }
     }
 
     return (
         <div className="ListContainer">
-            {
-                show.map((show) => (
-                    <div >
-                        <h2 style={{ textAlign: 'left' }}>{show.name}</h2>
-                        <img src={show.image} className="ListImg" alt="..." />
-                        <h3 className="textShow">{show.IMDB}</h3>
-                    </div>
-                ))
-            }
+            {shows.map((show) => (
+                <div key={show.id}>
+                    <h2 style={{ textAlign: 'left', padding: '5px 5px' }}>{show.name}</h2>
+                    <Link to={`/details/${show.id}`}>
+                        <img src={show.image} className="ListImg" alt={show.name} />
+                    </Link>
+                    <h3 className="textShow">{show.IMDB}</h3>
+                </div>
+            ))}
         </div>
     );
-
 }

@@ -3,33 +3,105 @@
         {
             "name": "Dead City",
             "IMDB": 8.4,
-            "image": "/Images/Main/DeadCity.jpg"
+            "image": "/Images/Main/DeadCity.jpg",
+            "year": 2023,
+            "poster": "/Images/List/DeadCity-Poster.jpg",
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 1
         },
         {
             "name": "Vikings",
             "IMDB": 8.5,
-            "image": "/Images/Main/Vikings.jpg"
+            "image": "/Images/Main/Vikings.jpg",
+
+            "year": "2013",
+            "genre": "ماجراجویی ، اکشن ، درام ",
+            "actor": "Travis Femmal , Katheryn Winnik , Alex Hogh",
+            "description": "داستان از آنجا شروع میشود که یک کشاورز به اسم رگنار تصمیم میگیرد بر خلاف فرمان فرمانروا منطقه به جای غرب به شرق سفر کند تا غنیمت های جدیدی بدست بیاورند",
+            "id": 2
         },
         {
             "name": "The Last Of US",
             "IMDB": 8.7,
-            "image": "/Images/Main/TLOU.jpg"
+            "image": "/Images/Main/TLOU.jpg",
+            "yaer": 2023,
+            "poster": "/Images/List/TLOU-poster.jpg",
+            "genre": "ترسناک ",
+            "actor": "Pedro Pascal , Bella Ramsy",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 3
         },
         {
             "name": "Breaking Bad",
             "IMDB": 9.5,
-            "image": "/Images/Main/BB.jpg"
+            "image": "/Images/Main/BB.jpg",
+            "yaer": 2008,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 4
         },
         {
             "name": "MobLand",
             "IMDB": 8.3,
-            "image": "/Images/Main/mobLand.jpg"
+            "image": "/Images/Main/mobLand.jpg",
+            "yaer": 2025,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 5
         },
         {
             "name": "Cage",
             "IMDB": 6.4,
-            "image": "/Images/Main/Cage.jpg"
+            "image": "/Images/Main/Cage.jpg",
+            "yaer": 2025,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 6
+        },
+        {
+            "name": "From",
+            "IMDB": 8,
+            "image": "/Images/Main/From.jpg",
+            "yaer": 2024,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 7
+        },
+        {
+            "name": "Fubar",
+            "IMDB": 6.5,
+            "image": "/Images/Main/FUBAR.jpg",
+            "yaer": 2025,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 8
+        },
+        {
+            "name": "Squid Game",
+            "IMDB": 8,
+            "image": "/Images/Main/Squid-Game.jpg",
+            "yaer": 2021,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 9
+        },
+        {
+            "name": "Sherlock",
+            "IMDB": 6.6,
+            "image": "/Images/Main/Sherlok.jpg",
+            "yaer": 2025,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": 10
         }
     ]
-    
 }

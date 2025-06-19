@@ -1,14 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import FirstPage from "./components/main/FirstPage";
+import Details from "./pages/Details";
+import Home from "./components/main/Home";
+import List from "./pages/List";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <FirstPage/>
         <Routes>
-          <Route />
+          <Route path="/" element={<Home />} />
+          <Route path="/details/:id" element={<Details />} />
         </Routes>
+
       </BrowserRouter>
     </>
   );
