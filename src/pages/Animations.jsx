@@ -23,20 +23,20 @@ export default function Animation() {
     }
 
     return <>
-        <Link to="/animation">
-            <h2 style={{ textAlign: 'center' }}>انیمیشن ها</h2>
-        </Link>
-        <div className="ListContainer">
-            {shows.map((show) => (
-                <div key={show.id}>
-                    <h2 style={{ textAlign: 'left', padding: '5px 5px' }}>{show.name}</h2>
-                    <Link to={`/details/${show.id}`}>
-                        <img src={show.image} className="ListImg" alt={show.name} />
-                    </Link>
-                    <Button />
-                    <h3 className="textShow">{show.IMDB}</h3>
-                </div>
-            ))}
-        </div>
-    </>
+            <Link to="/animationPage">
+                <h2 style={{ textAlign: 'center' }}>انیمیشن ها</h2>
+            </Link>
+            <div className="ListContainer">
+                {shows.map((show) => (
+                    <div key={show.id}>
+                        <h2 style={{ textAlign: 'left', padding: '5px 5px' }}>{show.name}</h2>
+                        <Link to={`/animationDetails/${show.id}`}>
+                            <img src={show.image} className="ListImg" alt={show.name} />
+                        </Link>
+                        <Button />
+                        <h3 className="textShow">{show.IMDB}</h3>
+                    </div>
+                ))}
+            </div>
+        </>
 }

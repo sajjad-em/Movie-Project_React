@@ -1,5 +1,7 @@
+import Action from "../../pages/ActionList";
 import Animation from "../../pages/Animations";
-import List from "../../pages/List";
+import SeriesList from "../../pages/SeriesList";
+
 import Header from "../header/Header";
 import Slider from "../slider/Slider";
 
@@ -11,10 +13,14 @@ export default function Home() {
         <br />
         <hr />
         <br />
-        <List />
+        <SeriesList />
         <br />
         <hr />
         <br />
         <Animation />
+        <br />
+        <hr />
+        <br />
+        <Action />
     </>
 }

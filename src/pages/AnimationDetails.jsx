@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/header/Header";
-export default function Details() {
+export default function AnimationDetails() {
     const { id } = useParams();
     const [selectedShow, setSelectedShow] = useState(null);
 
@@ -12,7 +12,7 @@ export default function Details() {
 
     async function getData() {
         try {
-            const res = await axios.get("http://localhost:3001/series");
+            const res = await axios.get("http://localhost:3001/animations");
             const foundShow = res.data.find((item) => item.id.toString() === id);
             setSelectedShow(foundShow);
         } catch (error) {
@@ -26,7 +26,7 @@ export default function Details() {
     return (
         <>
             <Header />
-            
+
             <div className="DetailsContainer">
                 <img src={selectedShow.poster} alt={selectedShow.name} className="DetailsImg" />
                 <div className="detailed-contant">

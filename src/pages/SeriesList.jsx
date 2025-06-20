@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/public/Button";
 
-export default function List() {
+export default function SeriesList() {
     const [shows, setShows] = useState([]);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ export default function List() {
 
     return (
         <>
-            <Link to="/series">
+            <Link to="/seriespage">
                 <h2 style={{ textAlign: 'center' }}>سریال ها</h2>
             </Link>
             <div className="ListContainer">

@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Details from "./pages/Details";
 import Home from "./components/main/Home";
-import List from "./pages/List";
-import Series from "./components/public/seriesDetails";
-import AnimationsPage from "./components/public/AnimationsPage";
+import AnimationDetails from "./pages/AnimationDetails";
+import SeriesDetails from "./pages/SeriesDetails";
+import Page from "./pages/SeriesPage/Page";
+import AnimationPage from "./pages/animationPage/Page";
 
 function App() {
   return (
@@ -11,9 +11,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/details/:id" element={<Details />} />
-          <Route path="/series" element={<Series />} />
-          <Route path="animation" element={<AnimationsPage />} />
+          <Route path="/seriespage" element={<Page />} /> {/* صفحه مخصوص سریال ها */}
+          <Route path="/details/:id" element={<SeriesDetails />} />  {/* صفحه جزییات */}
+          <Route path="/animationPage" element={<AnimationPage />} /> {/* صفحه مخصوص انیمیشن ها */}
+          <Route path="/animationDetails/:id" element={<AnimationDetails />} />  {/* صفحه جزییات */}
         </Routes>
 
       </BrowserRouter>

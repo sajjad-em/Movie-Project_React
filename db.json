@@ -8,68 +8,14 @@
             "poster": "/Images/List/DeadCity-Poster.jpg",
             "genre": "ترسناک ",
             "actor": "Jeffry Dean Morgan , Laurn Cohan",
-            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی برای کمک دست به به نیگن پناه میبرد ",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی برای کمک به نیگن پناه میبرد ",
             "id": "Dead City"
         },
         {
             "name": "Vikings",
             "IMDB": 8.5,
             "image": "/Images/Main/series/Vikings.jpg",
-            "poster":"/Images/List/vikings-poster.jpg",
-            "year": "2013",
-            "genre": "ماجراجویی ، اکشن ، درام ",
-            "actor": "Travis Femmal , Katheryn Winnik , Alex Hogh",
-            "description": "داستان از آنجا شروع میشود که یک کشاورز به اسم رگنار تصمیم میگیرد بر خلاف فرمان فرمانروا منطقه به جای غرب به شرق سفر کند تا غنیمت های جدیدی بدست بیاورند",
-            "id": "Vikings"
-        },
-        {
-            "name": "The Last Of US",
-            "IMDB": 8.7,
-            "image": "/Images/Main/series/TLOU.jpg",
-            "yaer": 2023,
-            "poster": "/Images/List/TLOU-poster.jpg",
-            "genre": "ترسناک ",
-            "actor": "Pedro Pascal , Bella Ramsy",
-            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
-            "id": "TLOU"
-        },
-        {
-            "name": "Breaking Bad",
-            "IMDB": 9.5,
-            "image": "/Images/Main/series/BB.jpg",
-            "yaer": 2008,
-            "genre": "ترسناک ",
-            "actor": "Jeffry Dean Morgan , Laurn Cohan",
-            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
-            "id": "Breaking Bad"
-        },
-        {
-            "name": "MobLand",
-            "IMDB": 8.3,
-            "image": "/Images/Main/series/mobLand.jpg",
-            "yaer": 2025,
-            "genre": "ترسناک ",
-            "actor": "Jeffry Dean Morgan , Laurn Cohan",
-            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
-            "id": "MobLand"
-        }
-    ],
-    "seriesDetails": [
-        {
-            "name": "Dead City",
-            "IMDB": 8.4,
-            "image": "/Images/Main/series/DeadCity.jpg",
-            "year": 2023,
-            "poster": "/Images/List/DeadCity-Poster.jpg",
-            "genre": "ترسناک ",
-            "actor": "Jeffry Dean Morgan , Laurn Cohan",
-            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی برای کمک دست به به نیگن پناه میبرد ",
-            "id": "Dead City"
-        },
-        {
-            "name": "Vikings",
-            "IMDB": 8.5,
-            "image": "/Images/Main/series/Vikings.jpg",
+            "poster": "/Images/List/vikings-poster.jpg",
             "year": "2013",
             "genre": "ماجراجویی ، اکشن ، درام ",
             "actor": "Travis Femmal , Katheryn Winnik , Alex Hogh",
@@ -172,7 +118,7 @@
         {
             "name": "Bad Guys",
             "image": "/Images/Main/Animation/BadGuys.jpg",
-            "IMDB": 5.9,
+            "IMDB": 6.8,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
@@ -182,7 +128,7 @@
         {
             "name": "Dog Man",
             "image": "/Images/Main/Animation/DogMan.jpg",
-            "IMDB": 5.9,
+            "IMDB": 6.3,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
@@ -192,69 +138,17 @@
         {
             "name": "Garfield",
             "image": "/Images/Main/Animation/Garfield.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
+            "IMDB": 5.7,
+            "year": 2024,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
             "cast": "",
             "id": "Garfield"
         },
         {
-            "name": "Hotel Transilvania",
+            "name": "Hotel Transilvania 4",
             "image": "/Images/Main/Animation/HT.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
-            "poster": "",
-            "genre": " انیمیشن ، کمدی",
-            "cast": "",
-            "id": "Hotel Transilvania"
-        }
-    ],
-    "animationsDetails": [
-        {
-            "name": "Baby Boss",
-            "image": "/Images/Main/Animation/BabyBoss.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
-            "poster": "",
-            "genre": " انیمیشن ، کمدی",
-            "cast": "",
-            "id": "BabyBoss"
-        },
-        {
-            "name": "Bad Guys",
-            "image": "/Images/Main/Animation/BadGuys.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
-            "poster": "",
-            "genre": " انیمیشن ، کمدی",
-            "cast": "",
-            "id": "Bad Guys"
-        },
-        {
-            "name": "Dog Man",
-            "image": "/Images/Main/Animation/DogMan.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
-            "poster": "",
-            "genre": " انیمیشن ، کمدی",
-            "cast": "",
-            "id": "Dog Man"
-        },
-        {
-            "name": "Garfield",
-            "image": "/Images/Main/Animation/Garfield.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
-            "poster": "",
-            "genre": " انیمیشن ، کمدی",
-            "cast": "",
-            "id": "Garfield"
-        },
-        {
-            "name": "Hotel Transilvania",
-            "image": "/Images/Main/Animation/HT.jpg",
-            "IMDB": 5.9,
+            "IMDB": 6,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
@@ -262,10 +156,10 @@
             "id": "Hotel Transilvania"
         },
         {
-            "name": "Inside Out",
+            "name": "Inside Out 2",
             "image": "/Images/Main/Animation/InsideOut.jpg",
-            "IMDB": 5.9,
-            "year": 2021,
+            "IMDB": 8.1,
+            "year": 2024,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
             "cast": "",
@@ -274,7 +168,7 @@
         {
             "name": "Secret Levels",
             "image": "/Images/Main/Animation/secretLevel.jpg",
-            "IMDB": 5.9,
+            "IMDB": 7.4,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
@@ -284,7 +178,7 @@
         {
             "name": "Sneakers",
             "image": "/Images/Main/Animation/Sneakers.jpg",
-            "IMDB": 5.9,
+            "IMDB": 7,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
@@ -304,12 +198,114 @@
         {
             "name": "Tom and Jerry",
             "image": "/Images/Main/Animation/TAJ.jpg",
-            "IMDB": 5.9,
+            "IMDB": 5.3,
             "year": 2021,
             "poster": "",
             "genre": " انیمیشن ، کمدی",
             "cast": "",
             "id": "Tom and Jerry"
+        }
+    ],
+    "action": [
+        {
+            "name": "Captian America",
+            "image": " /Images/Main/action/Ca.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Dead Pool",
+            "image": "/Images/Main/action/DeadPool.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Dune",
+            "image": "/Images/Main/action/Dune.jpg",
+            "IMDB": 0,
+            "year": 2021,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Fight Risk",
+            "image": "/Images/Main/action/FightRisk.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Gladiator",
+            "image": "/Images/Main/action/Gladiator.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Godzilla vs Kong",
+            "image": "/Images/Main/action/GodzillaKong.jpg",
+            "IMDB": 0,
+            "year": 2024,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Gorge",
+            "image": "/Images/Main/action/Gorge.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Red One",
+            "image": "/Images/Main/action/RedOne.jpg",
+            "IMDB": 0,
+            "year": 2025,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Revenet",
+            "image": "/Images/Main/action/Revanent.jpg",
+            "IMDB": 0,
+            "year": 2016,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
+        },
+        {
+            "name": "Venom",
+            "image": "/Images/Main/action/Venom.jpg",
+            "IMDB": 0,
+            "year": 2018,
+            "poster": "",
+            "genre": "",
+            "actor": "",
+            "id": "  "
         }
     ]
 }
