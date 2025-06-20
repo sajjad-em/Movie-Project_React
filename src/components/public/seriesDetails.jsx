@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import List from "../../pages/List";
 import Header from "../header/Header";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Button from "./Button";
 
-export default function AnimationsPage() {
+export default function Series() {
 
 
     const [shows, setShows] = useState([]);
@@ -16,7 +17,7 @@ export default function AnimationsPage() {
 
     async function getData() {
         try {
-            const res = await axios.get("http://localhost:3001/animationsDetails");
+            const res = await axios.get("http://localhost:3001/seriesDetails");
             setShows(res.data);
         } catch (error) {
             alert("مشکلی پیش آمده است . لطفا مجددا تلاش کنید.");
@@ -25,9 +26,7 @@ export default function AnimationsPage() {
     }
     return <>
         <Header />
-        <Link to="/">
-            <h2 style={{ textAlign: 'center' }}>انیمیشن ها</h2>
-        </Link>
+        <h2 style={{ textAlign: 'center' , color:'indigo' }}> سریال ها</h2>
         <div className="ListContainer">
             {shows.map((show) => (
                 <div key={show.id}>

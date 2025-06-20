@@ -15,6 +15,61 @@
             "name": "Vikings",
             "IMDB": 8.5,
             "image": "/Images/Main/series/Vikings.jpg",
+            "poster":"/Images/List/vikings-poster.jpg",
+            "year": "2013",
+            "genre": "ماجراجویی ، اکشن ، درام ",
+            "actor": "Travis Femmal , Katheryn Winnik , Alex Hogh",
+            "description": "داستان از آنجا شروع میشود که یک کشاورز به اسم رگنار تصمیم میگیرد بر خلاف فرمان فرمانروا منطقه به جای غرب به شرق سفر کند تا غنیمت های جدیدی بدست بیاورند",
+            "id": "Vikings"
+        },
+        {
+            "name": "The Last Of US",
+            "IMDB": 8.7,
+            "image": "/Images/Main/series/TLOU.jpg",
+            "yaer": 2023,
+            "poster": "/Images/List/TLOU-poster.jpg",
+            "genre": "ترسناک ",
+            "actor": "Pedro Pascal , Bella Ramsy",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": "TLOU"
+        },
+        {
+            "name": "Breaking Bad",
+            "IMDB": 9.5,
+            "image": "/Images/Main/series/BB.jpg",
+            "yaer": 2008,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": "Breaking Bad"
+        },
+        {
+            "name": "MobLand",
+            "IMDB": 8.3,
+            "image": "/Images/Main/series/mobLand.jpg",
+            "yaer": 2025,
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی گرین برای کمک دست به به نیگن پناه میبرد ",
+            "id": "MobLand"
+        }
+    ],
+    "seriesDetails": [
+        {
+            "name": "Dead City",
+            "IMDB": 8.4,
+            "image": "/Images/Main/series/DeadCity.jpg",
+            "year": 2023,
+            "poster": "/Images/List/DeadCity-Poster.jpg",
+            "genre": "ترسناک ",
+            "actor": "Jeffry Dean Morgan , Laurn Cohan",
+            "description": "داستان این سریال چند سال پس اتفاقات سریال اصلی رخ میدهد جایی که مگی برای کمک دست به به نیگن پناه میبرد ",
+            "id": "Dead City"
+        },
+        {
+            "name": "Vikings",
+            "IMDB": 8.5,
+            "image": "/Images/Main/series/Vikings.jpg",
             "year": "2013",
             "genre": "ماجراجویی ، اکشن ، درام ",
             "actor": "Travis Femmal , Katheryn Winnik , Alex Hogh",
@@ -104,6 +159,58 @@
         }
     ],
     "animations": [
+        {
+            "name": "Baby Boss",
+            "image": "/Images/Main/Animation/BabyBoss.jpg",
+            "IMDB": 5.9,
+            "year": 2021,
+            "poster": "",
+            "genre": " انیمیشن ، کمدی",
+            "cast": "",
+            "id": "BabyBoss"
+        },
+        {
+            "name": "Bad Guys",
+            "image": "/Images/Main/Animation/BadGuys.jpg",
+            "IMDB": 5.9,
+            "year": 2021,
+            "poster": "",
+            "genre": " انیمیشن ، کمدی",
+            "cast": "",
+            "id": "Bad Guys"
+        },
+        {
+            "name": "Dog Man",
+            "image": "/Images/Main/Animation/DogMan.jpg",
+            "IMDB": 5.9,
+            "year": 2021,
+            "poster": "",
+            "genre": " انیمیشن ، کمدی",
+            "cast": "",
+            "id": "Dog Man"
+        },
+        {
+            "name": "Garfield",
+            "image": "/Images/Main/Animation/Garfield.jpg",
+            "IMDB": 5.9,
+            "year": 2021,
+            "poster": "",
+            "genre": " انیمیشن ، کمدی",
+            "cast": "",
+            "id": "Garfield"
+        },
+        {
+            "name": "Hotel Transilvania",
+            "image": "/Images/Main/Animation/HT.jpg",
+            "IMDB": 5.9,
+            "year": 2021,
+            "poster": "",
+            "genre": " انیمیشن ، کمدی",
+            "cast": "",
+            "id": "Hotel Transilvania"
+        }
+    ],
+    "animationsDetails": [
         {
             "name": "Baby Boss",
             "image": "/Images/Main/Animation/BabyBoss.jpg",

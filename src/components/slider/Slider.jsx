@@ -14,7 +14,7 @@ export default function Slider() {
                 loop={true}
                 navigation={true}
                 autoplay={{
-                    delay: 2000,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 pagination={{ clickable: true }}
