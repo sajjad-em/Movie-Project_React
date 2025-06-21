@@ -22,7 +22,7 @@ export default function Action() {
     }
 
     return <>
-        <Link to="/animationPage">
+        <Link to="/actionPage">
             <h2 style={{ textAlign: 'center' }}>اکشن</h2>
         </Link>
         <div className="ListContainer">
