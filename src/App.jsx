@@ -5,6 +5,8 @@ import SeriesDetails from "./pages/SeriesDetails";
 import Page from "./pages/SeriesPage/Page";
 import AnimationPage from "./pages/animationPage/Page";
 import ActionPage from "./pages/actionPage/Page";
+import HororPage from "./pages/HororPage/HororPage";
+import WatchListPage from "./pages/Watchlist/WatchListPage";
 
 function App() {
   return (
@@ -12,11 +14,17 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="watchlist" element={<WatchListPage />} />
+
           <Route path="/seriespage" element={<Page />} /> {/* صفحه مخصوص سریال ها */}
           <Route path="/details/:id" element={<SeriesDetails />} />  {/* صفحه جزییات */}
+
           <Route path="/animationPage" element={<AnimationPage />} /> {/* صفحه مخصوص انیمیشن ها */}
           <Route path="/animationDetails/:id" element={<AnimationDetails />} />  {/* صفحه جزییات */}
+
           <Route path="/actionPage" element={<ActionPage />} />
+
+          <Route path="Hororpage" element={<HororPage />} />
         </Routes>
 
       </BrowserRouter>

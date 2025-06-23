@@ -314,5 +314,117 @@
             "actor": "",
             "id": "  "
         }
+    ],
+    "horor": [
+        {
+            "name": "Bone Face",
+            "IMDB": 4.6,
+            "image": "/Images/Main/horor/Bone-Face.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/bone-face.jpg",
+            "genre": "ترسناک ، اکشن",
+            "actor": "Alli Hart، Artrial Clark، Ava Hellstern",
+            "description": "... در پی یک قتل‌عام در اردوگاهی متروکه، پلیس سرنخ‌هایی را دنبال می‌کند که آن‌ها را به یک ",
+            "id": "BoneFace"
+        },
+        {
+            "name": "Clown in the Cornfield",
+            "IMDB": 6,
+            "image": "/Images/Main/horor/clown.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/CITC.jpg",
+            "genre": "ترسناک ، رازآلود",
+            "actor": "Aaron Abrams، Alexandre Martin Deakin، Ayo Solanke ",
+            "description": "... کوئین، دختری جوان، به همراه پدرش به شهری آرام نقل مکان می‌کند؛ اما آرامش شهر زیر سایه‌ی ",
+            "id": "Clown in the Cornfield"
+        },
+        {
+            "name": "Evil Dead Rise",
+            "IMDB": 6.5,
+            "image": "/Images/Main/horor/EDR.jpg",
+            "year": 2023,
+            "poster": "/Images/List/horor/EDR.jpg",
+            "genre": "ترسناک ، اکشن",
+            "actor": "Alyssa Sutherland , Lily Sullivan , Morgan Davies , Gabrielle Echols",
+            "description": "داستان دو خواهر به نام‌های بث و الی را روایت می‌کند که به دلیل کشف یک کتاب باستانی مرموز در آپارتمان الی، درگیر نبردی برای بقا با شیاطین تسخیرکننده می‌شوند. این شیاطین، با تسخیر بدن اعضای خانواده الی، به کابوس وحشتناکی برای بث و خواهرزاده‌هایش تبدیل می‌شوند و آن‌ها را درگیر نبردی مرگبار می‌کنند",
+            "id": "EvilDeadRise"
+        },
+        {
+            "name": "Saw X",
+            "IMDB": 6.6,
+            "image": "/Images/Main/horor/sawX.jpg",
+            "year": 2023,
+            "poster": "/Images/List/horor/SawX.jpg",
+            "genre": "ترسناک ، اکشن ، رازآلود",
+            "actor": "Tobin Bell , Shawnee Smith , Renata Vaca , Costas Mandylor",
+            "description": "جان کرامر/جیگ‌ساو به امید پیدا کردن درمانی برای سرطان خود، به کشور مکزیک سفر می‌کند. با این حال او متوجه می‌شود که تمامی این قضیه درمان یک کلاه‌برداری بوده و حال آتش خشم وی برای گرفتن انتقامی خونین شعله‌ور می‌شود که پای تله‌های مرگ‌بارش را به داستان باز خواهد کرد ",
+            "id": "ُSAWX"
+        },
+        {
+            "name": "Scream Boat",
+            "IMDB": 4.3,
+            "image": "/Images/Main/horor/Screamboat.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/SB.jpg",
+            "genre": "ترسناک ، کمدی",
+            "actor": "Allison Pittel، Amy Schumacher، Brian Quinn",
+            "description": "در یک شب آرام، گروهی از شهروندان نیویورک سوار بر کشتی مسافربری استاتن آیلند در حال بازگشت",
+            "id": "SB"
+        },
+        {
+            "name": "Seeds",
+            "IMDB": 5,
+            "image": "/Images/Main/horor/Seeds.jpg",
+            "year": 2024,
+            "poster": "/Images/List/horor/Seeds.jpg",
+            "genre": "ترسناک ، اکشن",
+            "actor": "Bonnie Whitley، Brandon Oakes، Cherish Violet Blood",
+            "description": "زیگی، زنی از قوم موهاک، هنگام بازگشت به خانه‌ی اجدادی‌اش با تلاش گروهی برای دزدیدن دانه‌های نایاب",
+            "id": "Seeds"
+        },
+        {
+            "name": "The Devil Bride",
+            "IMDB": 5,
+            "image": "/Images/Main/horor/TDB.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/TDB.jpg",
+            "genre": "ترسناک ، هیجان انگیز",
+            "actor": " Alfie Alfandi، Arkana Adyatsa، Baim D'bill",
+            "description": "عشا و آریل زوج خوشبختی هستند تا اینکه جن داسیم، موجودی قدرتمند و شیفته عشا، آرام‌آرام خانهٔ ",
+            "id": "The Devil Bride"
+        },
+        {
+            "name": "The Surrender",
+            "IMDB": 5.5,
+            "image": "/Images/Main/horor/The-Surrender.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/The-Surrender.jpg",
+            "genre": "ترسناک ، درام",
+            "actor": "Alaina Pollack، Bill Pryor، Chelsea Alden",
+            "description": "... مگان برای مراقبت از پدر در حال مرگش به خانه بازمی‌گردد. پس از مرگ او، مادرش در ",
+            "id": "TS"
+        },
+        {
+            "name": "Untill Down",
+            "IMDB": 5.8,
+            "image": "/Images/Main/horor/UD.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/UD.jpg",
+            "genre": "ترسناک ، درام",
+            "actor": "Ádám Bot، Adam Kocsis، Adam Zambryzcki",
+            "description": "... در شهر معدنی کوچک تا سپیده دم، زن جوانی که ماه ها تصور می شد مرده ناگهان ",
+            "id": "UD"
+        },
+        {
+            "name": "You're All Gonna Die",
+            "IMDB": 4.4,
+            "image": "/Images/Main/horor/Youre-All-Gonna-Die.jpg",
+            "year": 2025,
+            "poster": "/Images/List/horor/Youre-All-Gonna-Die.jpg",
+            "genre": "ترسناک",
+            "actor": "Austin Mercado، Frank Prell، Gimbals Moonier",
+            "description": "... پس از مرگ دختری به نام نائومی، گروهی از فعالان عدالت‌خواه برای کشف حقیقت به اردوگاهی متروکه ",
+            "id": "YAGD"
+        }
     ]
 }

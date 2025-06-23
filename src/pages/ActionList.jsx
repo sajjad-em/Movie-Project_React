@@ -32,7 +32,7 @@ export default function Action() {
                     <Link to={`/animationDetails/${show.id}`}>
                         <img src={show.image} className="ListImg" alt={show.name} />
                     </Link>
-                    <Button />
+                    <Button show={show} />
                     <h3 className="textShow">{show.IMDB}</h3>
                 </div>
             ))}

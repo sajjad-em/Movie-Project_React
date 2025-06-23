@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/public/Button";
 
-export default function Animation() {
+export default function HororList() {
 
     const [shows, setShows] = useState([]);
 
@@ -14,17 +14,16 @@ export default function Animation() {
 
     async function getData() {
         try {
-            const res = await axios.get("http://localhost:3001/animations");
+            const res = await axios.get("http://localhost:3001/horor");
             setShows(res.data);
         } catch (error) {
             alert("مشکلی پیش آمده است . لطفا مجددا تلاش کنید.");
             console.log(error);
         }
     }
-
-    return <>
-            <Link to="/animationPage">
-                <h2 style={{ textAlign: 'center' }}>انیمیشن ها</h2>
+    return<>
+                <Link to="/Hororpage">
+                <h2 style={{ textAlign: 'center' }}>ترسناک</h2>
             </Link>
             <div className="ListContainer">
                 {shows.map((show) => (
@@ -38,5 +37,5 @@ export default function Animation() {
                     </div>
                 ))}
             </div>
-        </>
+    </>
 }

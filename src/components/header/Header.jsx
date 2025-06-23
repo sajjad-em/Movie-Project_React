@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../../style/style.css"
 import Search from "./Search"
 import { useState } from "react"
@@ -10,12 +11,16 @@ export default function Header() {
         <>
             <div className="container">
                 <div className="header-top">
-                    <h2 className="logo">مای مووی</h2>
+                    <Link to="/">
+                        <h2 className="logo">مای مووی</h2>
+                    </Link>
                     <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
                 </div>
                 <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
                     <li>ارتباط با ما</li>
+                    <Link to="watchlist">
                     <li>لیست پخش</li>
+                    </Link>
                     <li>فیلم خارجی</li>
                     <li>فیلم ایرانی</li>
                     <li>سریال</li>

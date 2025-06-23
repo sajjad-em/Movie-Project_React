@@ -1,5 +1,6 @@
 import Action from "../../pages/ActionList";
 import Animation from "../../pages/Animations";
+import HororList from "../../pages/HororList";
 import SeriesList from "../../pages/SeriesList";
 
 import Header from "../header/Header";
@@ -22,5 +23,9 @@ export default function Home() {
         <hr />
         <br />
         <Action />
+        <br />
+        <hr />
+        <br />
+        <HororList />
     </>
 }

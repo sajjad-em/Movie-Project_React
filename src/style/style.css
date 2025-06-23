@@ -261,7 +261,7 @@ body {
 }
 
 .searchInp {
-    width: 100%;
+    width: 250px;
     height: 45px;
     font-size: 1rem;
     padding: 0 10px;
@@ -278,6 +278,13 @@ body {
     color: gray;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.movieListContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 20px 50px;
 }
 
 @media (max-width: 1200px) {
@@ -317,6 +324,10 @@ body {
     .ListContainer {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 25px;
     }
 
     .detailRow {
@@ -335,6 +346,11 @@ body {
 
     .description {
         font-size: 1.2rem;
+    }
+
+    .movieListContent {
+        display: flex;
+        justify-content: center;
     }
 
 }
@@ -405,7 +421,6 @@ body {
     display: none;
 }
 
-/* لیست منو در حالت دسکتاپ */
 .nav-list {
     display: flex;
     list-style: none;
@@ -428,6 +443,11 @@ body {
     color: black;
 }
 
+.movieListContent {
+    display: flex;
+    justify-content: left;
+}
+
 /* حالت گوشی */
 @media (max-width: 768px) {
     .menu-icon {
@@ -444,5 +464,10 @@ body {
 
     .nav-list.open {
         display: flex;
+    }
+
+    .movieListContent {
+        display: flex;
+        justify-content: center;
     }
 }
