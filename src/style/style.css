@@ -448,6 +448,7 @@ body {
     justify-content: left;
 }
 
+
 /* حالت گوشی */
 @media (max-width: 768px) {
     .menu-icon {

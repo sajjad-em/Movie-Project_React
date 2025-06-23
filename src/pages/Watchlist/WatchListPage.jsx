@@ -16,14 +16,18 @@ export default function WatchListPage() {
             <div className="watchListContainer">
                 <h2 style={{ textAlign: 'center' }}>لیست پخش من</h2>
                 <div className="movieListContent">
-                    {watchList.map((show) => (
-                        <div key={show.id}>
-                            <h2>{show.name}</h2>
-                            <img src={show.image} alt={show.name} className="ListImg" />
-                            <RemoveButton showId={show.id} setWatchList={setWatchList} />
-                            <h3>{show.IMDB}</h3>
-                        </div>
-                    ))}
+                    {watchList.length === 0 ? (
+                            <h2 style={{ margin: '150px auto', fontSize: '2.5rem' }}>لیست پخش شما خالی است</h2>
+                    ) : (
+                        watchList.map((show) => (
+                            <div key={show.id}>
+                                <h2>{show.name}</h2>
+                                <img src={show.image} alt={show.name} className="ListImg" />
+                                <RemoveButton showId={show.id} setWatchList={setWatchList} />
+                                <h3>{show.IMDB}</h3>
+                            </div>
+                        ))
+                    )}
                 </div>
             </div>
         </>
