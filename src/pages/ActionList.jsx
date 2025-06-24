@@ -29,7 +29,7 @@ export default function Action() {
             {shows.map((show) => (
                 <div key={show.id}>
                     <h2 style={{ textAlign: 'left', padding: '5px 5px' }}>{show.name}</h2>
-                    <Link to={`/animationDetails/${show.id}`}>
+                    <Link to={`/actionnDetails/${show.id}`}>
                         <img src={show.image} className="ListImg" alt={show.name} />
                     </Link>
                     <Button show={show} />

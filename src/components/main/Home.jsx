@@ -22,7 +22,7 @@ export default function Home() {
         <br />
         <hr />
         <br />
-        <Action />
+        <Action  />
         <br />
         <hr />
         <br />

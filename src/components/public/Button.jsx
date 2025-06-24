@@ -8,7 +8,7 @@ export default function Button({ show }) {
             localStorage.setItem("watchList", JSON.stringify(updatedList));
             alert("به لیست پخش اضافه شد!");
         } else {
-            alert("این سریال قبلاً اضافه شده است.");
+            alert(" قبلاً اضافه شده است.");
         }
     };
 

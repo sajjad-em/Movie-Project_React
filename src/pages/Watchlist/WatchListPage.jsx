@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../../components/header/Header";
 import RemoveButton from "../../components/public/RemoveButton";
+import { Link } from "react-router-dom";
 
 export default function WatchListPage() {
     const [watchList, setWatchList] = useState([]);
@@ -17,7 +18,7 @@ export default function WatchListPage() {
                 <h2 style={{ textAlign: 'center' }}>لیست پخش من</h2>
                 <div className="movieListContent">
                     {watchList.length === 0 ? (
-                            <h2 style={{ margin: '150px auto', fontSize: '2.5rem' }}>لیست پخش شما خالی است</h2>
+                        <h2 style={{ margin: '150px auto', fontSize: '2.5rem' }}>  لیست پخش شما خالی است</h2>
                     ) : (
                         watchList.map((show) => (
                             <div key={show.id}>

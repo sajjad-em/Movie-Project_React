@@ -24,7 +24,7 @@ export default function SeriesList() {
     return (
         <>
             <Link to="/seriespage">
-                <h2 style={{ textAlign: 'center' }}>سریال ها</h2>
+                <h2 style={{ textAlign: 'center' }}>سریال </h2>
             </Link>
             <div className="ListContainer">
                 {shows.map((show) => (

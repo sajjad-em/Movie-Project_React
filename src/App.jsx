@@ -7,6 +7,8 @@ import AnimationPage from "./pages/animationPage/Page";
 import ActionPage from "./pages/actionPage/Page";
 import HororPage from "./pages/HororPage/HororPage";
 import WatchListPage from "./pages/Watchlist/WatchListPage";
+import ActionDetails from "./pages/ActionDetails";
+import ContactUs from "./components/contact/Contact";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="watchlist" element={<WatchListPage />} />
+          <Route path="contact" element={<ContactUs/>}/>
 
           <Route path="/seriespage" element={<Page />} /> {/* صفحه مخصوص سریال ها */}
           <Route path="/details/:id" element={<SeriesDetails />} />  {/* صفحه جزییات */}
@@ -22,7 +25,8 @@ function App() {
           <Route path="/animationPage" element={<AnimationPage />} /> {/* صفحه مخصوص انیمیشن ها */}
           <Route path="/animationDetails/:id" element={<AnimationDetails />} />  {/* صفحه جزییات */}
 
-          <Route path="/actionPage" element={<ActionPage />} />
+          <Route path="/actionPage" element={<ActionPage />} /> {/* صفحه مخصوص اکشن */}
+          <Route path="/actionnDetails/:id" element={<ActionDetails />} /> {/* صفحه جزییات */}
 
           <Route path="Hororpage" element={<HororPage />} />
         </Routes>

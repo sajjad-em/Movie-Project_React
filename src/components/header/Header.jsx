@@ -10,6 +10,9 @@ export default function Header() {
     return (
         <>
             <div className="container">
+                <Link to={"/"}>
+                <div className="Icon"></div>
+                </Link>
                 <div className="header-top">
                     <Link to="/">
                         <h2 className="logo">مای مووی</h2>
@@ -17,9 +20,11 @@ export default function Header() {
                     <FaBars className="menu-icon" onClick={() => setMenuOpen(!menuOpen)} />
                 </div>
                 <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
+                    <Link to="contact">
                     <li>ارتباط با ما</li>
+                    </Link>
                     <Link to="watchlist">
-                    <li>لیست پخش</li>
+                        <li>لیست پخش</li>
                     </Link>
                     <li>فیلم خارجی</li>
                     <li>فیلم ایرانی</li>
