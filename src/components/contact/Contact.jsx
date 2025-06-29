@@ -18,7 +18,7 @@ const ContactUs = () => {
                     <label>پیام:</label>
                     <textarea placeholder="پیامت را با جوهر خیال بنویس..." rows="4" />
 
-                    <button type="submit">ارسال پیام</button>
+                    <button className='submitBtn' type="submit">ارسال پیام</button>
                     <img style={{width:'100%' , marginTop:'10px'}} src="/Images/contact/1.jpeg" alt="" />
                 </form>
             </div>

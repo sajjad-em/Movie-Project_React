@@ -21,7 +21,7 @@ export default function SeriesDetails() {
         }
     }
 
-    if (!selectedShow) return <p>Loading...</p>;
+    if (!selectedShow) return ;
 
     return (
         <>

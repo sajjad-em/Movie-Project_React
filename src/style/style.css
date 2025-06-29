@@ -88,6 +88,15 @@ body {
     cursor: pointer;
 }
 
+.themeBtn {
+    position: fixed;
+    left: 20rem;
+    top: 140px;
+    width: 50px;
+    border-radius: 5px;
+    height: 50px;
+}
+
 .image-3d-wrapper {
     perspective: 1000px;
 }
@@ -203,7 +212,7 @@ body {
 }
 
 .container {
-    width: 100%;    
+    width: 100%;
     background-color: rgb(75, 0, 130);
     position: sticky;
     top: 0;
@@ -358,9 +367,9 @@ body {
     display: flex;
     justify-content: center;
     direction: rtl;
-  }
-  
-  .contact-card {
+}
+
+.contact-card {
     background: indigo;
     padding: 40px;
     border-radius: 16px;
@@ -368,34 +377,35 @@ body {
     max-width: 600px;
     text-align: center;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-  }
-  
-  .contact-image {
+}
+
+.contact-image {
     max-width: 100px;
     margin-bottom: 20px;
-  }
-  
- .contactText{
+}
+
+.contactText {
     color: #fff;
     margin-bottom: 10px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-top: 20px;
     font-weight: bold;
     color: #fff;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 12px;
     margin-top: 5px;
     border-radius: 8px;
     border: 1px solid #ccc;
-  }
-  
-  button {
+}
+
+.submitBtn {
     background-color: #3f51b5;
     color: white;
     border: none;
@@ -405,11 +415,90 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #303f9f;
-  }
+}
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 20px 10px;
+    font-family: 'IRANSans', sans-serif;
+    direction: rtl;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+    flex: 1 1 250px;
+    margin: 20px;
+}
+
+.footer-about h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #e01b6d;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #76ff14;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #e01b6d;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #76ff14;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    color: #aaa;
+}
 
 /* حالت گوشی */
 @media (max-width: 768px) {
@@ -432,6 +521,18 @@ body {
     .movieListContent {
         display: flex;
         justify-content: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-social {
+        margin: 10px 0;
     }
 }
 
@@ -477,6 +578,7 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         margin-right: 25px;
+        gap: 80px;
     }
 
     .detailRow {

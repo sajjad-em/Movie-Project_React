@@ -229,100 +229,100 @@
             "image": " /Images/Main/action/Ca.jpg",
             "IMDB": 5.7,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/CA.jpg ",
             "genre": "اکشن",
-            "actor": "xcbb , dbfbg, dgdfgdfg",
-            "id": "  "
+            "actor": "",
+            "id": "1"
         },
         {
             "name": "Dead Pool",
             "image": "/Images/Main/action/DeadPool.jpg",
             "IMDB": 7.5,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/DW.jpg",
             "genre": "اکشن",
             "actor": "",
-            "id": "  "
+            "id": "2"
         },
         {
             "name": "Dune",
             "image": "/Images/Main/action/Dune.jpg",
             "IMDB": 8.5,
             "year": 2021,
-            "poster": "",
+            "poster": "/Images/List/Action/D.jpg",
             "genre": "حماسی ، آخرالزمانی",
             "actor": "",
-            "id": "  "
+            "id": "3"
         },
         {
             "name": "Fight Risk",
             "image": "/Images/Main/action/FightRisk.jpg",
             "IMDB": 5.2,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/FR.jpg",
             "genre": "اکشن",
             "actor": "",
-            "id": "  "
+            "id": "4"
         },
         {
             "name": "Gladiator",
             "image": "/Images/Main/action/Gladiator.jpg",
             "IMDB": 6.5,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/G2.jpg",
             "genre": "تاریخی ، اکشن",
             "actor": "",
-            "id": "  "
+            "id": "5"
         },
         {
             "name": "Godzilla vs Kong",
             "image": "/Images/Main/action/GodzillaKong.jpg",
             "IMDB": 6,
             "year": 2024,
-            "poster": "",
+            "poster": "/Images/List/Action/GK.jpg",
             "genre": "تخیلی ، اکشن ",
             "actor": "",
-            "id": "  "
+            "id": "6"
         },
         {
             "name": "Gorge",
             "image": "/Images/Main/action/Gorge.jpg",
             "IMDB": 6.7,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/GO.jpg",
             "genre": "درام ، ترسناک ، اکشن",
             "actor": "",
-            "id": "  "
+            "id": "7"
         },
         {
             "name": "Red One",
             "image": "/Images/Main/action/RedOne.jpg",
             "IMDB": 6.3,
             "year": 2025,
-            "poster": "",
+            "poster": "/Images/List/Action/RO.jpg",
             "genre": "اکشن ، کمدی ",
             "actor": "",
-            "id": "  "
+            "id": "8"
         },
         {
             "name": "Revenant",
             "image": "/Images/Main/action/Revanent.jpg",
             "IMDB": 8,
             "year": 2016,
-            "poster": "",
+            "poster": "/Images/List/Action/TR.jpg",
             "genre": "درام ، اکشن",
             "actor": "",
-            "id": ""
+            "id": "9"
         },
         {
             "name": "Venom",
             "image": "/Images/Main/action/Venom.jpg",
             "IMDB": 6.6,
             "year": 2018,
-            "poster": "",
+            "poster": "/Images/List/Action/V.jpg",
             "genre": "تخیلی ، اکشن",
             "actor": "",
-            "id": "  "
+            "id": "10"
         }
     ],
     "horor": [

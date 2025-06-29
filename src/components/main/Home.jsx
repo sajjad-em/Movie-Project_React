@@ -2,6 +2,7 @@ import Action from "../../pages/ActionList";
 import Animation from "../../pages/Animations";
 import HororList from "../../pages/HororList";
 import SeriesList from "../../pages/SeriesList";
+import Footer from "../Footer";
 
 import Header from "../header/Header";
 import Slider from "../slider/Slider";
@@ -22,10 +23,11 @@ export default function Home() {
         <br />
         <hr />
         <br />
-        <Action  />
+        <Action />
         <br />
         <hr />
         <br />
         <HororList />
+        <Footer />
     </>
 }
