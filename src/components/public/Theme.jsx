@@ -17,7 +17,7 @@ export default function ThemeBtn() {
     return <>
         <button
             onClick={toggleTheme} className={isDark ? "theme-btn dark" : "theme-btn light"}>
-            تغییر تم
+            
         </button>
 
     </>
