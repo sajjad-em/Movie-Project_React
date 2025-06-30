@@ -639,7 +639,7 @@ textarea {
     }
 
     .theme-btn {
-        width: 120px;
+        width: 50px;
         font-size: 16px;
     }
 }
@@ -666,7 +666,7 @@ textarea {
     .searchInp {
         font-size: 0.9rem;
         height: 40px;
-        width: 120px;
+        width: 105px;
     }
 
     .custom-nav-btn {
