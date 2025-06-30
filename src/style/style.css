@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* font-family: cursive; */
+    font-family: cursive;
 }
 
 body {
@@ -78,6 +78,24 @@ body {
     text-align: right;
 }
 
+.search-results {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 300px;
+}
+
+.search-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-item:last-child {
+    border-bottom: none;
+}
+
+
 .search-icon {
     position: absolute;
     left: 10px;
@@ -88,14 +106,41 @@ body {
     cursor: pointer;
 }
 
-.themeBtn {
-    position: fixed;
-    left: 20rem;
-    top: 140px;
-    width: 50px;
-    border-radius: 5px;
-    height: 50px;
+.theme-btn {
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+    border: unset;
+    margin-top: 5px;
 }
+
+.theme-btn:hover {
+    box-shadow: 0 0 10px rgb(4, 59, 211);
+}
+
+body.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+
+body.dark-theme {
+    background-color: grey;
+    color: #000;
+}
+
+.container.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.container.dark {
+    background-color: grey;
+    color: #eee;
+}
+
 
 .image-3d-wrapper {
     perspective: 1000px;
@@ -163,16 +208,13 @@ body {
     background-color: rgb(75, 0, 130);
     color: white;
     border: unset;
-    width: 50px;
+    width: 53px;
     height: 60px;
     box-shadow: 0 0 10px rgb(75, 0, 130);
     cursor: pointer;
 }
 
 .DetailsImg {
-    /* position: fixed;
-    top: 64px;
-    right: 0; */
     width: 60%;
     height: 700px;
     float: right;
@@ -417,10 +459,6 @@ textarea {
     transition: background 0.3s ease;
 }
 
-button:hover {
-    background-color: #303f9f;
-}
-
 .footer {
     background-color: #111;
     color: #fff;
@@ -605,6 +643,17 @@ button:hover {
         text-align: center;
     }
 
+    .header-tools {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .theme-btn {
+        width: 120px;
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 480px) {

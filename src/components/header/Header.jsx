@@ -3,7 +3,7 @@ import "../../style/style.css"
 import Search from "./Search"
 import { useState } from "react"
 import { FaBars } from "react-icons/fa"
-import Theme from "../public/Theme"
+import ThemeBtn from "../public/Theme"
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(true)
@@ -38,6 +38,7 @@ export default function Header() {
                     </Link>
                 </ul>
                 <Search />
+                <ThemeBtn/>
             </div>
         </>
     )

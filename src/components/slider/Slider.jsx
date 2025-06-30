@@ -32,7 +32,7 @@ export default function Slider() {
                             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
                         />
                         <h1 style={{ color: 'darkred' }}>Sinners</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 7.8</p>
+                        <p style={{ color: '#000' }}>IMDB : 7.8</p>
                     </div>
                 </SwiperSlide>
 
@@ -46,7 +46,7 @@ export default function Slider() {
                         />
 
                         <h1 style={{ color: 'darkblue' }}>Ballerina</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 7.3</p>
+                        <p style={{ color: '#000' }}>IMDB : 7.3</p>
                     </div>
                 </SwiperSlide>
 
@@ -57,8 +57,8 @@ export default function Slider() {
                             alt="final destination"
                             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
                         />
-                        <h1 style={{ color: '#fff' }}>Final Destination</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 7</p>
+                        <h1 style={{ color: 'red' }}>Final Destination</h1>
+                        <p style={{ color: '#000' }}>IMDB : 7</p>
                     </div>
                 </SwiperSlide>
 
@@ -70,7 +70,7 @@ export default function Slider() {
                             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
                         />
                         <h1 style={{ color: '#37675d' }}>Mission Impossible 7</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 7.5</p>
+                        <p style={{ color: '#000' }}>IMDB : 7.5</p>
                     </div>
                 </SwiperSlide>
 
@@ -82,7 +82,7 @@ export default function Slider() {
                             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
                         />
                         <h1 style={{ color: 'khaki' }}>Fountain of Youth</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 5.7</p>
+                        <p style={{ color: '#000' }}>IMDB : 5.7</p>
                     </div>
 
                 </SwiperSlide>
@@ -94,8 +94,8 @@ export default function Slider() {
                             alt="warfare"
                             className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover rounded-lg image-3d"
                         />
-                        <h1 style={{ color: 'yellow' }}>Warfare</h1>
-                        <p style={{ color: 'yellow' }}>IMDB : 7.3</p>
+                        <h1 style={{ color: '#000' }}>Warfare</h1>
+                        <p style={{ color: '#000' }}>IMDB : 7.3</p>
                     </div>
                 </SwiperSlide>
             </Swiper>
