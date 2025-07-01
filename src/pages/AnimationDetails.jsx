@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../components/header/Header";
 import { ThreeDot } from "react-loading-indicators";
+import Loading from "../components/public/Loading";
 export default function AnimationDetails() {
     const { id } = useParams();
     const [selectedShow, setSelectedShow] = useState(null);
@@ -22,9 +23,7 @@ export default function AnimationDetails() {
         }
     }
 
-    if (!selectedShow) return <div style={{display:'flex' , justifyContent:'center' , marginTop:'150px'}}>
-    <ThreeDot variant="bounce" color="#5307ff" size="large" text="loading" textColor="#5307ff" />  ;
-    </div>
+    if (!selectedShow) return <Loading/>
 
     return (
         <>
