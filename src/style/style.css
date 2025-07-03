@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -85,7 +85,8 @@ body {
     transform: translateY(-50%);
     color: gray;
     font-size: 1rem;
-    cursor: pointer;;
+    cursor: pointer;
+    ;
 }
 
 .theme-btn {
@@ -178,7 +179,7 @@ body.dark-theme {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 20px;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .ListImg {
@@ -524,6 +525,75 @@ textarea {
     border-top: 1px solid #333;
     font-size: 0.9rem;
     color: #aaa;
+}
+
+.App {
+    text-align: center;
+}
+
+.hero-section {
+    background-color: #4B0082;
+    /* Indigo */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.pricing-box {
+    background-color: #fff;
+    color: #4B0082;
+    /* Indigo */
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    text-align: center;
+}
+
+.pricing-box h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.pricing-box p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.buyBtn {
+    background-color: #4B0082;
+    /* Indigo */
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buyBtn :hover {
+    background-color: #3b006b;
+    /* Darker Indigo */
 }
 
 /* حالت گوشی */

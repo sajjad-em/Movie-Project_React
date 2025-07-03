@@ -10,6 +10,7 @@ import WatchListPage from "./pages/Watchlist/WatchListPage";
 import ActionDetails from "./pages/ActionDetails";
 import ContactUs from "./components/contact/Contact";
 import ForeignPage from "./pages/Foreign/Main";
+import Subscription from "./pages/subscription/Subscription";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="watchlist" element={<WatchListPage />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="foregin" element={<ForeignPage />} />
+          <Route path="subs" element={<Subscription />} />
 
           <Route path="/seriespage" element={<Page />} /> {/* صفحه مخصوص سریال ها */}
           <Route path="/details/:id" element={<SeriesDetails />} />  {/* صفحه جزییات */}

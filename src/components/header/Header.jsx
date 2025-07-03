@@ -27,6 +27,9 @@ export default function Header() {
                     <Link to="watchlist">
                         <li>لیست پخش</li>
                     </Link>
+                    <Link to="subs">
+                        <li>خرید اشتراک</li>
+                    </Link>
                     <Link to="foregin">
                         <li>فیلم خارجی</li>
                     </Link>
@@ -38,7 +41,7 @@ export default function Header() {
                     </Link>
                 </ul>
                 <Search />
-                <ThemeBtn/>
+                <ThemeBtn />
             </div>
         </>
     )

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "../../components/header/Header";
 import RemoveButton from "../../components/public/RemoveButton";
-import { Link } from "react-router-dom";
 
 export default function WatchListPage() {
     const [watchList, setWatchList] = useState([]);
