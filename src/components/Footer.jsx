@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/style.css';
 import { FaTelegram, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,10 +16,18 @@ const Footer = () => {
         <div className="footer-links">
           <h4>دسترسی سریع</h4>
           <ul>
-            <li><a href="#">خانه</a></li>
-            <li><a href="#">فیلم‌ها</a></li>
-            <li><a href="#">سریال‌ها</a></li>
-            <li><a href="#">تماس با ما</a></li>
+            <Link style={{ color: '#fff' }} to="/">
+              <li>خانه</li>
+            </Link>
+            <Link style={{ color: '#fff' }} to="/">
+              <li>فیلم‌ها</li>
+            </Link>
+            <Link style={{ color: '#fff' }} to="seriespage ">
+              <li>سریال‌ها</li>
+            </Link>
+            <Link style={{ color: '#fff' }} to="/">
+              <li>تماس با ما</li>
+            </Link>
           </ul>
         </div>
 

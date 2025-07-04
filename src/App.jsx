@@ -22,6 +22,7 @@ function App() {
           <Route path="contact" element={<ContactUs />} />
           <Route path="foregin" element={<ForeignPage />} />
           <Route path="subs" element={<Subscription />} />
+          
 
           <Route path="/seriespage" element={<Page />} /> {/* صفحه مخصوص سریال ها */}
           <Route path="/details/:id" element={<SeriesDetails />} />  {/* صفحه جزییات */}

@@ -591,12 +591,10 @@ textarea {
     text-decoration: none;
 }
 
-.buyBtn :hover {
+.buyBtn:hover {
     background-color: #3b006b;
-    /* Darker Indigo */
 }
 
-/* حالت گوشی */
 @media (max-width: 768px) {
     .menu-icon {
         display: flex;
@@ -646,6 +644,29 @@ textarea {
 
     .detailRow {
         width: 80%;
+    }
+
+    .hero-section {
+        padding: 80px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-section p {
+        font-size: 17px;
+        max-width: 500px;
+    }
+
+    .pricing-container {
+        flex-wrap: wrap;
+        margin: 40px 0;
+    }
+
+    .pricing-box {
+        width: 45%;
+        margin: 15px;
     }
 }
 
@@ -712,6 +733,30 @@ textarea {
         width: 50px;
         font-size: 16px;
     }
+
+    .hero-section {
+        padding: 60px 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -747,5 +792,22 @@ textarea {
 
     .description {
         font-size: 1rem;
+    }
+
+    .hero-section {
+        padding: 40px 5px;
+    }
+
+    .hero-section h1 {
+        font-size: 28px;
+    }
+
+    .hero-section p {
+        font-size: 15px;
+    }
+
+    .buyBtn {
+        padding: 12px 20px;
+        font-size: 16px;
     }
 }
